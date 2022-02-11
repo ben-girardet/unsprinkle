@@ -60,10 +60,13 @@ const Image = styled.img`
 const Tags = styled.ul`
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 4px 0;
   `;
 
 const Tag = styled.li`
-  display: inline-block;
+  display: inline;
   padding: 4px 8px;
   background: var(--color-gray-300);
   font-size: 0.875rem;
